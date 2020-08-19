@@ -57,7 +57,8 @@ Specify each parameter using the `--set key=value[,key=value]` argument to `helm
 To upgrade the chart, use the following:
 
 ```console
-$ helm upgrade [RELEASE] charts/cloudneeti-agent [flags]
+$ helm upgrade [RELEASE] charts/cloudneeti-agent [flags] \
+  --reuse-values
 ```
 Specify parameter using the `--set key=value[,key=value]` argument to `helm upgrade`  in order to modify earlier set values.
 
