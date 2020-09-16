@@ -20,4 +20,3 @@ data:
   cloudneetiEnvironment: {{ .Values.cloudneetiEnvironment | quote }}
   cloudneetiApiAppId: {{ .Values.cloudneetiApiAppId | quote }}
   clusterHosting: {{ .Values.clusterHosting | quote }}
-  
