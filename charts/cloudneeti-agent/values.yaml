@@ -29,4 +29,3 @@ cronjob:
   concurrencyPolicy: "Forbid"
   failedJobsHistoryLimit: "3"
   successfulJobsHistoryLimit: "2"
-  
